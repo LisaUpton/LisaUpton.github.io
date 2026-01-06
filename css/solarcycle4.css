@@ -1,0 +1,445 @@
+﻿.auto-style2 {
+	font-family: "Cooper Black";
+	text-align: center;
+	font-size:	40px;
+	background-color:black;
+	color: #0033CC;
+	font-weight: normal;
+	margin-bottom: 14px;
+}
+.auto-style3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: x-large;
+	color: #0033CC;
+	background-color:black;
+	font-weight: normal;
+}
+.auto-style5 {
+	text-align: center;
+	color: #000000;
+	font-size: large;
+}
+.home_body {
+	background-size: 100%;
+	padding: 5%;
+	background-image: url('../bin/WhiteSands_Sun3.jpg') ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #CC6600;
+	text-align: center;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+	letter-spacing: 1pt;
+}
+.button1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: x-large;
+	color: #0033CC;
+	background-color:black;
+	font-weight: normal;
+	border-color:#0033CC;;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+  	margin-top: 20px;
+  	border-width: medium;
+ }
+.BoldBlueHeader {
+	font-family: "Cooper Black";
+	font-size: 30pt;
+	background-color: black;
+	color: #0A47FF;
+	font-weight: normal;
+	margin-bottom: 14px;
+}
+.BlueHeader {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26pt;
+	color: #0A47FF;
+	background-color: black;
+	font-weight:bold;
+}
+.BlueHeaderSmall {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #0A47FF;
+	background-color: black;
+	font-weight: normal;
+}
+.header {
+	font-size: 30px;
+	color: gray;
+	background-color: black;
+
+}
+h1.blue {
+	margin: .67em 0;
+	font-size: 2em;
+	color: #0033CC;
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+.h1, h1 {
+	font-size: 36px;
+}
+.h2, h2 {
+	font-size: 30px;
+}
+.h3, h3 {
+	font-size: 24px;
+}
+.Copyright {
+	font-family: Arial;
+	color: #C0C0C0;
+}
+.Announce_BG {
+	background-size: 90%;
+	padding: 1%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: black;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 16pt;
+	font-weight: bold;
+	color:red
+}
+.SunBG {
+	background-size: 100%;
+	padding: 5%;
+	background-image: url('bin/WhiteSands_Sun3.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #CC6600;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+}
+.OrangeBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #CC6600;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.YellowBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFFF8C;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.WhiteBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.PinkBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FF99CC;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.RedBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FF9393;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.BlueBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #93FFFF;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.GreenBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #A0FEB6;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.PurpleBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #C5A8FF;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.GrayBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #999999;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.Blue1_paleBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #89F1FF;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue1_lightBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #4AE9FF;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue1_baseBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #02E0FF;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue1_darkBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #00ABC3;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue1_darkerBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #007F90;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue2_paleBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #95AFFF;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+    font-weight: bold;
+}
+.Blue2_lightBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #5B84FF;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue2_baseBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #0A47FF;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue2_darkBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #0033CC;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Blue2_darkerBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #00289F;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange1_paleBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFD987;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange1_lightBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFC546;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange1_baseBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFAE00;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange1_darkBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFAE00;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange1_darkerBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #ECA100;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange2_paleBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFC187;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange2_lightBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FF9F46;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange2_baseBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FF7A00;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange2_darkBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FF7A00;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.Orange2_darkerBG {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #EC7100;
+	text-align: center;
+	font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.BGCaption {
+	background-size: 90%;
+	padding: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+}

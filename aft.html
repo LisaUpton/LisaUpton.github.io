@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+
+    <title>Discover the Sun!</title>
+     <link rel="shortcut icon" href= bin/sun.bmp />
+
+    <!-- Core CSS -->
+    <link href="css/solarcycle2.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/solarcycle3.css" rel="stylesheet">
+    <link href="css/solarcycle4.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+	</head>
+<body>
+
+  
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+                <h1 class="BoldBlueHeader" style="height: 39px">&nbsp;<img alt="" height="32" src="bin/sun.bmp" width="32"> Solar Cycle Science
+                    <small>Discover the Sun!</small>
+                </h1>
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li>
+					<a href="index.html">Home</a>
+                    </li>
+                    <li class="active">AFT Model Page</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="index.html" class="list-group-item">Home</a>
+                    <a href="basics.html" class="list-group-item">Basics</a>
+                    <a href="activeregions.html" class="list-group-item">Active Regions</a>
+                    <a href="flows.html" class="list-group-item">Surface Flows</a>
+                    <a href="flowprofiles.html" class="list-group-item">Axisymetric Flow Profiles</a>                    
+                    <a href="giantcells.html" class="list-group-item">Giant Cell Maps</a>
+                    <a href="polarfields.html" class="list-group-item">Polar Fields</a>
+                    <a href="solarcycle.html" class="list-group-item">Solar Cycles</a>
+                    <a href="aft.html" class="list-group-item">Advective Flux Transport</a>
+                    <a href="baseline.html" class="list-group-item">Baseline Maps</a>
+                    <a href="forecasts.html" class="list-group-item">Predictions</a>
+                    <a href="media.html" class="list-group-item">Media</a>
+                    <a href="people.html" class="list-group-item">People</a>
+                    <a href="more.html" class="list-group-item">More</a>
+                </div>
+            </div>
+
+            <!-- Content Column -->
+            <div class="col-md-9" style="left: 0px; top: 0px">
+
+                <h2 class="BlueHeader">Discover the AFT Model!</h2>
+                <div class="Blue2_paleBG">
+                
+           
+                Surface Flux Transport (SFT) describes the latter part of the <a href="solarcycle.html">dynamo 
+                process</a>, in which the flows on the surface of the Sun transport the magnetic flux from the 
+                <a href="activeregions.html">active region</a> belts to the poles. During solar maximum the 
+                previous cycle's <a href="polarfields.html">polar fields</a> are cancelled and a new poloidal 
+                field with the opposite polarity begins to grow. At solar minimum, the strength of this new 
+                poloidal field becomes the seed to the next solar cycle. <br> <br>
+                
+                SFT begins with the emergence of bipolar magnetic active regions with the characteristic Hale’s 
+                polarity and Joy’s Law tilt (Hale et al. 1919; Howard 1991). Initially, the active regions emerge 
+                at about 30° latitude. As the cycle progresses, they emerge at progressively lower latitudes, 
+                eventually stopping near the equator. The magnetic flux in the active regions is shredded off 
+                by turbulent convective motions (over a period of a few days or weeks) and is dispersed into the 
+                surrounding plasma. The dispersed flux is then transported by the <a href="flows.html"> surface 
+                flows</a>: differential rotation, meridional circulation, and the turbulent cellular motions of 
+                convection. The weak magnetic elements are carried to the edges of the convective structures 
+                (granules and supergranules) by flows within those convective cells, forming a magnetic network. 
+                Once concentrated in the magnetic network, the flux is then carried (along with the convective 
+                cells) by the axisymmetric differential rotation and meridional circulation. <br> <br>
+                
+                While the majority of the active region flux will cancel with the opposite polarity from the 
+                active region itself or with future active regions, some residual flux remnants will remain. 
+                The lower latitude leading polarity flux remnants will eventually cancel across the equator, 
+                while the higher latitude following polarity flux remnants migrate to the poles. The following 
+                polarity flux cancels with the original global poloidal field and creates a new poloidal field 
+                with opposite polarity, from which the new solar cycle is born.<br> <br>
+                
+                Most previous SFT models have been highly parameterized, in particular with respect to active 
+                region emergence, the meridional flow, and the convective motions. Previous models have been 
+                restricted to simulating active region emergence by inserting artificial bipolar active region 
+                sources (though some have been based on observed active regions). The adopted meridional flow 
+                profiles (sharply peaked at low latitudes, stopping short of the poles, exaggerated variations 
+                around active regions) deviate substantially from the observed profiles. Additionally, these 
+                models have typically neglected the variability in the meridional flow altogether (the 
+                meridional flow is faster at solar cycle minimum and slower at maximum). Furthermore, virtually 
+                all previous models have parameterized the turbulent convection by a diffusivity with widely
+                varying values from model to model.<br> <br>
+                
+                When we set out to create our SFT model, the Advective Flux Transport (AFT) model, our primary
+                goal was to create the most realistic SFT model possible by incorporating the observed active 
+                regions and surface flows directly, with minimal parameterizations. The AFT model uses the 
+                measured axisymmetric flows along with a convective simulation to explicitly model the surface 
+                flows produced by the convective flows. The convective simulation uses vector spherical harmonics 
+                to create a convective velocity field that reproduces the spectral characteristics of the 
+                convective flows observed on the Sun. The spectral coefficients evolve, giving the simulated 
+                convective cells finite lifetimes and moving them with the observed differential rotation and 
+                meridional flow. Strong magnetic fields on the Sun inhibit convection; therefore when the flow 
+                velocities are employed, they are dampened where the magnetic field is strong. This magnetic 
+                field strength dependent effect is difficult to reproduce with the diffusivity used in other 
+                models. Advecting the flows with the simulated convection allows the model to surpass the 
+                realism that can be obtained by using a diffusivity coefficient.<br> <br>
+                
+                Magnetic sources can be incorporated in two different ways: either by manually inserting 
+                bipolar active regions (e.g., using active region databases like NOAA to insert flux daily as the 
+                active region grows) or by assimilating magnetic data directly from magnetograms. This gives the AFT 
+                model additional flexibility. While manual insertion allows the AFT model to be used to investigate 
+                flows and to make predictions, the assimilation process provides the closest contact to the 
+                observations, producing the most accurate synchronic maps of the entire Sun. These maps, referred 
+                to as the Baseline data set, can be used as a metric for evaluating SFT or as source data for 
+                models that extend into the solar atmosphere and the heliosphere.
+
+               
+                </div>
+
+                
+            </div>
+            
+
+	        <div class="col-md-12" style="left: 0px; top: 0px">
+	            <a name="Polar"></a>
+	            <h2 class="BlueHeader">Discover AFT: Polar Field Predictions!</h2>
+				<div class="Blue2_paleBG" style="text-align:left">
+				
+				We have demonstrated the power of the AFT model by simulating Cycle 23 during the polar field reversal
+				(<a href="http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014ApJ...780....5U&db_key=AST&link_type=ABSTRACT&high=590e5387f029868">
+				details in this paper</a>). Starting with data 3 years ahead of the reversal, we were able to predict 
+				the timing of the field reversal to within four months, with four out of five predictions accurate to
+				within a month. Furthermore, we found that our predictions for the polar field evolution stayed in
+				remarkably good agreement with the baseline through to the end of the prediction, an additional 3 years 
+				after the reversal, demonstrating the ability to  accurately predict the evolution of the Sun’s dipolar 
+				magnetic field several years in advance. The increase in the spread of the measurements over time highlights 
+				the stochastic nature and important role that supergranules play in the transport of flux. <br> 
+				
+				                       
+                <div class="BGCaption" >
+				<figure>
+				<img src= bin/cycle23sims.png width="100%" alt='missing' />
+				<figcaption>
+				Solar Cycle 23 Simulations. Solar Cycle 23 simulations (each color represents a different realization
+				of the convective pattern) of the axial dipole moment evolution are compared to MDI observations (black). 
+				(Note: the annual signal in the MDI data is due to instrumental effects.) These predictions were made 
+				using Cycle 17 active region data as magnetic sources. The Solar Cycle 23 polar field reversal is shown 
+				on the left. The approach to the Solar Cycle 23/24 minimum is shown on the right.  
+				</figcaption>
+				</figure>
+				</div> <br>
+				
+				We went on to use the AFT model to predict the Solar Cycle 24 axial dipole moment reversal and subsequent 
+				magnetic field buildup, using Solar cycle 14 active regions as proxies for the continued active region 
+				emergence. Comparison of this prediction with the evolution of the axial dipole that has since occured,
+				show remarkable agreement. Both feature a relapse in the reversal, leading up to the end of 2014, followed
+				by a steady rise until the beginning of 2015. The axial dipole then plateaus defore taking off again at the
+				beginning of 2016.
+
+                <div class="BGCaption" >
+				<figure>
+				<img src= bin/cycle24prediction.png width="100%" alt='missing' />
+				<figcaption>
+				Solar Cycle 24 Prediction. The axial dipole moment for the solar cycle 24 polar field reversal as predicted
+				(left) and as observed with HMI magnetograms (right). The different colored tracks in the 
+				prediction represent different realizations of the convective motions. 
+				</figcaption>
+				</figure>
+				</div> <br>
+
+
+				Our prediction for Solar Cycle 25 can be found <a href="forecasts.html">here</a>.
+	     
+				                
+				<br></div>
+	         </div>
+	
+	        <div class="col-md-12" style="left: 0px; top: 0px">
+	            <a name="Polar"></a>
+	            <h2 class="BlueHeader">Discover AFT: Active Region Simulations!</h2>
+				<div class="Blue2_paleBG" style="text-align:left">
+							
+	            In addition to polar field evolutions, we have also investigated the finer details of individual active region 
+	            evolution in the AFT model(<a href="http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2015ApJ...815...90U&db_key=AST&link_type=ABSTRACT&high=590e5387f029868">
+				details in this paper</a>). We compared the total unsigned magnetic flux estimated from EUV 304 Å flux-luminosity 
+				relation directly to the total unsigned magnetic flux from the AFT baseline model. We found that the AFT model 
+				can accurately reproduce the active region evolution when the active region is not being observed by HMI and 
+				the model is operating without assimilation. Additional flux may emerge, however, while the active region is 
+				on the far-side. The AFT assimilation process corrects for this new emergence when this flux is observed by HMI 
+				and rotates over the East limb.
+				
+				<div class="BGCaption" >
+				<figure>
+				<img src= bin/AFT_ARs.png width="100%" alt='missing' />
+				<figcaption>
+				AFT Active Region Evolution. The left plot shows the flux obtained from the 304 proxy and the flux 
+				for two area integrations of the AFT model (red and orange) for Active Region 11158 . Grey areas mark the times 
+				when the active region is on the Earth side, when data from HMI magnetograms is being assimilated. The EUV and AFT 
+				maps at the time near peak 304 °A intensity is shown on the right.
+				</figcaption>
+				</figure>
+				</div> <br>
+
+				                
+				<br></div>
+	         </div>            
+            
+            
+            
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="Copyright">Copyright &copy; SolarCycleScience.com 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+</body>
+
+</html>
